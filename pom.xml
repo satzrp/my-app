@@ -31,7 +31,7 @@
       <uniqueVersion>true</uniqueVersion>
       <id>my-snapshots</id>
       <name>my-snapshots</name>
-      <url>http://ec2-18-207-190-99.compute-1.amazonaws.com:8081/repository/my-releases/</url>
+      <url>http://ec2-18-207-190-99.compute-1.amazonaws.com:8081/repository/my-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
