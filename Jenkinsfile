@@ -19,5 +19,12 @@ pipeline {
                 }
             }
         }
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                    sh "mvn clean verify sonar:sonar -Dsonar.projectKey=my-app"
+                }
+            }
+        }
     }
 }
