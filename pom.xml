@@ -24,14 +24,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>my-releases</id>
       <name>my-releases</name>
-      <url>http://ec2-54-172-5-181.compute-1.amazonaws.com:8081/repository/my-releases/</url>
+      <url>http://ip-172-31-82-2.ec2.internal:8081/repository/my-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>my-snapshots</id>
       <name>my-snapshots</name>
-      <url>http://ec2-54-172-5-181.compute-1.amazonaws.com:8081/repository/my-snapshots/</url>
+      <url>http://ip-172-31-82-2.ec2.internal:8081/repository/my-snapshots/</url>
       <layout>default</layout>
     </snapshotRepository>
   </distributionManagement>
